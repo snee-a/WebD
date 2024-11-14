@@ -1,0 +1,31 @@
+.blue{
+    height: 743px;
+    width: 100%;
+    background-color: #d2e5ed;
+}
+#help{
+    position: relative;
+    top: 97px;
+    left: 516px;
+}
+#we{
+    position: relative;
+    top: 98px;
+    left: 436px;
+}
+.form{
+    height: 465px;
+    width: 899px;
+    background-color: white;
+    position: relative;
+    left: 312px;
+    top: -500px;
+}
+.textbox{
+    width: 550px;
+}
+.abc{
+    position: relative;
+    left:25px;
+    top:20px;
+}

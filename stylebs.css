@@ -1,0 +1,256 @@
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#main_box{
+    height:1693px;
+    width:1170px;
+    /* background-color: aqua */
+    position: relative;
+    top: 50px;
+    left: 180px;
+    border: 3px solid black;
+    border-radius: 5px;
+    /* display: flex; */
+}
+h2{
+    background-color: white;
+    position: relative;
+    display: inline;
+    top: -20px;
+    left: 40%;
+}
+.line{
+    display: flex;
+    justify-content: space-around;
+    /* margin:50px; */
+}
+.box{
+    /* background-color: brown; */
+    height:400px;
+    width:270px;
+    /* border: 2px solid black; */
+}
+/* .one{
+    background-image: url(bs1.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+
+.five-star{
+  position:relative;
+ left:10px;
+ top:10px;
+}
+.img{
+    height:252px;
+    width:252px;
+    /* background-color: black; */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.text{
+    height:70px;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* border:1px solid black; */
+    margin-top: 5px;
+    font-size: small;
+}
+.rate{
+    height:20px;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+    /* border:1px solid black; */
+    margin-top: 5px;
+    font-size: smaller;
+    color:red;
+}
+.one .img{
+    background-image: url('bs1.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+.one .img:hover{
+    background-image: url('bshover1.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.two .img{
+    background-image: url('bs2.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+.two .img:hover{
+    background-image: url('bshover2.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.three .img{
+    background-image: url("bs3.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+.three .img:hover{
+    background-image: url("bshover3.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.four .img{
+    background-image: url('bs4.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+.four .img:hover{
+    background-image: url('bshover4.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.five .img{
+    background-image: url('bs5.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+.five .img:hover{
+    background-image: url('bshover5.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.five .img:hover{
+    background-image: url('bshover5.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.six .img{
+    background-image: url('bs6.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+.six .img:hover{
+    background-image: url('bshover4.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.seven .img{
+    background-image: url('bs7.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+.seven .img:hover{
+    background-image: url('bshover1.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.eight .img{
+    background-image: url('bs2.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+.eight .img:hover{
+    background-image: url('bshover2.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.nine .img{
+    background-image: url('bs9.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+.nine .img:hover{
+    background-image: url('bshover9.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.ten .img{
+    background-image: url('bs10.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+.ten .img:hover{
+    background-image: url('bshover9.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.eleven .img{
+    background-image: url('bs11.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+.eleven .img:hover{
+    background-image: url('bshover14.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.twelve .img{
+    background-image: url('bs1.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+.twelve .img:hover{
+    background-image: url('bshover1.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.thirteen .img{
+    background-image: url('bs1.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+.thirteen .img:hover{
+    background-image: url('bshover1.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.fourteen .img{
+    background-image: url('bs14.webp');
+    background-size: contain;
+    transition: 1s;
+    background-repeat: no-repeat;
+}
+.fourteen .img:hover{
+    background-image: url('bshover14.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* .fifteen{
+    background-image: url('bs15.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sixteen{
+    background-image: url('bs16.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+.ol{
+    text-decoration:line-through;
+    color:black;
+}
+/* .discount{
+    position: relative;
+    top:4px;
+    left:4px;
+    border-radius: none;
+} */
+.badge-discount{
+    background-color: #366864;
+}
